@@ -23,7 +23,7 @@ class Application:
     def open_groups_page(self):
         wd = self.wd
         wd.find_element_by_link_text("groups").click()
-#
+
     def create_group(self, group):
         wd = self.wd
         self.open_groups_page()
