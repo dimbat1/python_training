@@ -1,3 +1,4 @@
 
 
-class GroupHelper
+class GroupHelper():
+    pass
